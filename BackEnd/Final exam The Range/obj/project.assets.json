@@ -13076,6 +13076,7 @@
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.AspNetCore.App >= 2.2.6",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
+      "Microsoft.EntityFrameworkCore >= 2.2.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.2.6",
       "Microsoft.EntityFrameworkCore.SqlServer.Design >= 1.1.6",
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.2.6",
@@ -13094,11 +13095,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\Final exam The Range\\TheRange.UI.Rest.API.csproj",
+      "projectUniqueName": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\Final exam The Range\\TheRange.UI.Rest.API.csproj",
       "projectName": "TheRange.UI.Rest.API",
-      "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\Final exam The Range\\TheRange.UI.Rest.API.csproj",
+      "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\Final exam The Range\\TheRange.UI.Rest.API.csproj",
       "packagesPath": "C:\\Users\\kulsoom-Abbas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\Final exam The Range\\obj\\",
+      "outputPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\Final exam The Range\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13117,14 +13118,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\Final exam project.core\\TheRange.Core.csproj": {
-              "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\Final exam project.core\\TheRange.Core.csproj"
+            "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\Final exam project.core\\TheRange.Core.csproj": {
+              "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\Final exam project.core\\TheRange.Core.csproj"
             },
-            "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj": {
-              "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj"
+            "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj": {
+              "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj"
             },
-            "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\TheRangeInfrastructure.SQL.Data\\TheRange.Infrastructure.SQL.Data.csproj": {
-              "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\TheRangeInfrastructure.SQL.Data\\TheRange.Infrastructure.SQL.Data.csproj"
+            "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRangeInfrastructure.SQL.Data\\TheRange.Infrastructure.SQL.Data.csproj": {
+              "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRangeInfrastructure.SQL.Data\\TheRange.Infrastructure.SQL.Data.csproj"
             }
           }
         }
@@ -13145,6 +13146,10 @@
           "Microsoft.AspNetCore.Razor.Design": {
             "target": "Package",
             "version": "[2.2.0, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[2.2.6, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",

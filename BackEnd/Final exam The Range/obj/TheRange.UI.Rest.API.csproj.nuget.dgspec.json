@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\Final exam The Range\\TheRange.UI.Rest.API.csproj": {}
+    "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\Final exam The Range\\TheRange.UI.Rest.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\Final exam project.core\\TheRange.Core.csproj": {
+    "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\Final exam project.core\\TheRange.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\Final exam project.core\\TheRange.Core.csproj",
+        "projectUniqueName": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\Final exam project.core\\TheRange.Core.csproj",
         "projectName": "TheRange.Core",
-        "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\Final exam project.core\\TheRange.Core.csproj",
+        "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\Final exam project.core\\TheRange.Core.csproj",
         "packagesPath": "C:\\Users\\kulsoom-Abbas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\Final exam project.core\\obj\\",
+        "outputPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\Final exam project.core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj": {
-                "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj"
+              "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj": {
+                "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\Final exam The Range\\TheRange.UI.Rest.API.csproj": {
+    "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\Final exam The Range\\TheRange.UI.Rest.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\Final exam The Range\\TheRange.UI.Rest.API.csproj",
+        "projectUniqueName": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\Final exam The Range\\TheRange.UI.Rest.API.csproj",
         "projectName": "TheRange.UI.Rest.API",
-        "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\Final exam The Range\\TheRange.UI.Rest.API.csproj",
+        "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\Final exam The Range\\TheRange.UI.Rest.API.csproj",
         "packagesPath": "C:\\Users\\kulsoom-Abbas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\Final exam The Range\\obj\\",
+        "outputPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\Final exam The Range\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -104,14 +104,14 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\Final exam project.core\\TheRange.Core.csproj": {
-                "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\Final exam project.core\\TheRange.Core.csproj"
+              "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\Final exam project.core\\TheRange.Core.csproj": {
+                "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\Final exam project.core\\TheRange.Core.csproj"
               },
-              "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj": {
-                "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj"
+              "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj": {
+                "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj"
               },
-              "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\TheRangeInfrastructure.SQL.Data\\TheRange.Infrastructure.SQL.Data.csproj": {
-                "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\TheRangeInfrastructure.SQL.Data\\TheRange.Infrastructure.SQL.Data.csproj"
+              "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRangeInfrastructure.SQL.Data\\TheRange.Infrastructure.SQL.Data.csproj": {
+                "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRangeInfrastructure.SQL.Data\\TheRange.Infrastructure.SQL.Data.csproj"
               }
             }
           }
@@ -132,6 +132,10 @@
             "Microsoft.AspNetCore.Razor.Design": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -174,14 +178,14 @@
         }
       }
     },
-    "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj": {
+    "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj",
         "projectName": "TheRange.Core.Entity",
-        "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj",
+        "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj",
         "packagesPath": "C:\\Users\\kulsoom-Abbas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\TheRange.Core.Entity\\obj\\",
+        "outputPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRange.Core.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -232,14 +236,14 @@
         }
       }
     },
-    "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\TheRangeInfrastructure.SQL.Data\\TheRange.Infrastructure.SQL.Data.csproj": {
+    "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRangeInfrastructure.SQL.Data\\TheRange.Infrastructure.SQL.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\TheRangeInfrastructure.SQL.Data\\TheRange.Infrastructure.SQL.Data.csproj",
+        "projectUniqueName": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRangeInfrastructure.SQL.Data\\TheRange.Infrastructure.SQL.Data.csproj",
         "projectName": "TheRange.Infrastructure.SQL.Data",
-        "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\TheRangeInfrastructure.SQL.Data\\TheRange.Infrastructure.SQL.Data.csproj",
+        "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRangeInfrastructure.SQL.Data\\TheRange.Infrastructure.SQL.Data.csproj",
         "packagesPath": "C:\\Users\\kulsoom-Abbas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\TheRangeInfrastructure.SQL.Data\\obj\\",
+        "outputPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRangeInfrastructure.SQL.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -258,11 +262,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\Final exam project.core\\TheRange.Core.csproj": {
-                "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\Final exam project.core\\TheRange.Core.csproj"
+              "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\Final exam project.core\\TheRange.Core.csproj": {
+                "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\Final exam project.core\\TheRange.Core.csproj"
               },
-              "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj": {
-                "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Final exam The Range\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj"
+              "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj": {
+                "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj"
               }
             }
           }
