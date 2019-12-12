@@ -1,0 +1,25 @@
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\bin\Debug\netcoreapp2.2\Final exam The Range.deps.json
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\bin\Debug\netcoreapp2.2\Final exam The Range.runtimeconfig.json
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\bin\Debug\netcoreapp2.2\Final exam The Range.runtimeconfig.dev.json
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\bin\Debug\netcoreapp2.2\Final exam The Range.dll
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\obj\Debug\netcoreapp2.2\Final exam The Range.csprojAssemblyReference.cache
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\obj\Debug\netcoreapp2.2\Final exam The Range.RazorAssemblyInfo.cache
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\obj\Debug\netcoreapp2.2\Final exam The Range.RazorAssemblyInfo.cs
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\obj\Debug\netcoreapp2.2\Final exam The Range.AssemblyInfoInputs.cache
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\obj\Debug\netcoreapp2.2\Final exam The Range.AssemblyInfo.cs
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\obj\Debug\netcoreapp2.2\Final exam The Range.TagHelpers.input.cache
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\obj\Debug\netcoreapp2.2\Final exam The Range.TagHelpers.output.cache
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\obj\Debug\netcoreapp2.2\Final exam The Range.RazorCoreGenerate.cache
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\obj\Debug\netcoreapp2.2\Razor\Pages\Error.cshtml.g.cs
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\obj\Debug\netcoreapp2.2\Razor\Pages\Index.cshtml.g.cs
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\obj\Debug\netcoreapp2.2\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\obj\Debug\netcoreapp2.2\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\obj\Debug\netcoreapp2.2\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\obj\Debug\netcoreapp2.2\Final exam The Range.RazorTargetAssemblyInfo.cache
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam The Range\obj\Debug\netcoreapp2.2\Final exam The Range.RazorTargetAssemblyInfo.cs

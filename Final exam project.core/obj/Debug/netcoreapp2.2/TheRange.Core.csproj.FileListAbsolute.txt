@@ -1,0 +1,11 @@
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam project.core\bin\Debug\netcoreapp2.2\TheRange.Core.deps.json
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam project.core\bin\Debug\netcoreapp2.2\TheRange.Core.dll
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam project.core\bin\Debug\netcoreapp2.2\TheRange.Core.pdb
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam project.core\bin\Debug\netcoreapp2.2\TheRange.Core.Entity.dll
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam project.core\bin\Debug\netcoreapp2.2\TheRange.Core.Entity.pdb
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam project.core\obj\Debug\netcoreapp2.2\TheRange.Core.csprojAssemblyReference.cache
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam project.core\obj\Debug\netcoreapp2.2\TheRange.Core.AssemblyInfoInputs.cache
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam project.core\obj\Debug\netcoreapp2.2\TheRange.Core.AssemblyInfo.cs
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam project.core\obj\Debug\netcoreapp2.2\TheRange.Core.csproj.CopyComplete
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam project.core\obj\Debug\netcoreapp2.2\TheRange.Core.dll
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam project.core\obj\Debug\netcoreapp2.2\TheRange.Core.pdb

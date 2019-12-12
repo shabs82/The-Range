@@ -1,0 +1,4 @@
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam project.core\bin\Debug\netcoreapp3.0\TheRange.Core.Entity.dll
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam project.core\obj\Debug\netcoreapp3.0\TheRange.Core.csprojAssemblyReference.cache
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam project.core\obj\Debug\netcoreapp3.0\TheRange.Core.AssemblyInfoInputs.cache
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Final exam The Range\Final exam project.core\obj\Debug\netcoreapp3.0\TheRange.Core.AssemblyInfo.cs

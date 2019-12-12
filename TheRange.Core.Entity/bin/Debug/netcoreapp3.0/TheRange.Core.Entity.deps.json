@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "TheRange.Core.Entity/1.0.0": {
+        "runtime": {
+          "TheRange.Core.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TheRange.Core.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
