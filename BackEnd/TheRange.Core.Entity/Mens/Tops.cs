@@ -15,5 +15,6 @@ namespace TheRange.Core.Entity.Mens
         public string Sleeve { get; set; }
         public string Fit { get; set; }
         public Decimal Price { get; set; }
+        public Order Order { get; set; }
     }
 }

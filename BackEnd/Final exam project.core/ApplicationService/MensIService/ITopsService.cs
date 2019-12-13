@@ -13,6 +13,6 @@ namespace Final_exam_project.core.ApplicationService.MensIService
         void UpdateTops(int Id, Tops tops);
         void DeleteTops(int Id);
         Tops SearchTops(Tops tops);
-        List<Tops> SortTopsByPrice();
+        List<Tops> SortTopsByColour();
     }
 }

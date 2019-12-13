@@ -6,5 +6,6 @@ namespace TheRange.Infrastructure.SQL.Data
 {
     public interface IDBInitialiser
     {
+        void Seed(TheRangeContext context);
     }
 }
