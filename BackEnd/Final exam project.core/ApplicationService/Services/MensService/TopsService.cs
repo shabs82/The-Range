@@ -36,7 +36,7 @@ namespace TheRange.Core.ApplicationService.Services.MensService
             throw new System.NotImplementedException();
         }
 
-        public List<Tops> SortTopsByPrice()
+        public List<Tops> SortTopsByColour()
         {
             throw new System.NotImplementedException();
         }

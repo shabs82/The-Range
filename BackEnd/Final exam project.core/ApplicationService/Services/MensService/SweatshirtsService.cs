@@ -39,7 +39,7 @@ namespace Final_exam_project.core.ApplicationService.Services.MensService
             throw new NotImplementedException();
         }
 
-        public List<Sweatshirts> SortSweatshirtsByPrice()
+        public List<Sweatshirts> SortSweatshirtsByColour()
         {
             throw new NotImplementedException();
         }

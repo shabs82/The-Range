@@ -13,7 +13,7 @@ namespace Final_exam_project.core.ApplicationService.MensIService
         void UpdateSweatshirts(int Id, Sweatshirts sweatshirts);
         void DeleteSweatshirts(int Id);
         Sweatshirts SearchSweatshirts(Sweatshirts sweatshirts);
-        List<Sweatshirts> SortSweatshirtsByPrice();
+        List<Sweatshirts> SortSweatshirtsByColour();
 
     }
 }

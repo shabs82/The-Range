@@ -4,7 +4,9 @@ using System.Text;
 
 namespace TheRange.Core.Entity
 {
-    class Filter
+    public class Filter
     {
+        public int CurrentPage { get; set; }
+        public int ItemsPerPage { get; set; }
     }
 }

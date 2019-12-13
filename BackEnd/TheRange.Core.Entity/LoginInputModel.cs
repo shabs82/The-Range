@@ -4,7 +4,9 @@ using System.Text;
 
 namespace TheRange.Core.Entity
 {
-    class LoginInputModel
+    public class LoginInputModel
     {
+        public string Username { get; set; }
+        public string Password { get; set; }
     }
 }
