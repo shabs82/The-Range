@@ -8,6 +8,12 @@ namespace TheRange.Infrastructure.SQL.Data
 {
     public class CustomerRepository : ICustomerRepository
     {
+        readonly TheRangeContext _ctx;
+
+        public CustomerRepository(TheRangeContext ctx)
+        {
+            _ctx = ctx;
+        }
         public Customer CreateCustomer(Customer customer)
         {
             throw new NotImplementedException();
@@ -18,7 +24,7 @@ namespace TheRange.Infrastructure.SQL.Data
             throw new NotImplementedException();
         }
 
-        public List<Customer> GetCustomer()
+        public IEnumerable<Customer> GetCustomer()
         {
             throw new NotImplementedException();
         }

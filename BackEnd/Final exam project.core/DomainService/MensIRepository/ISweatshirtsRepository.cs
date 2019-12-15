@@ -9,11 +9,11 @@ namespace Final_exam_project.core.DomainService.MensIRepository
     {
         Sweatshirts NewSweatshirts(int Size, string Colour, string Brand, string Pattern, Decimal Price);
         Sweatshirts CreateSweatshirts(Sweatshirts sweatshirts);
-        List<Sweatshirts> ReadByID(Sweatshirts sweatshirts);
-        List<Sweatshirts> ReadAll();
+        IEnumerable<Sweatshirts> ReadByID(Sweatshirts sweatshirts);
+        IEnumerable<Sweatshirts> ReadAll();
         void UpdateSweatshirts(int Id, Sweatshirts sweatshirts);
         void DeleteSweatshirts(int Id);
-        List<Sweatshirts> SortSweatshirtsByPrice();
+        IEnumerable<Sweatshirts> SortSweatshirtsByColour();
 
     }
 }

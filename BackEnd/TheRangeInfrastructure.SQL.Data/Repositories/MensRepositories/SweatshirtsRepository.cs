@@ -8,6 +8,12 @@ namespace TheRange.Infrastructure.SQL.Data.MensRepositories
 {
     public class SweatshirtsRepository : ISweatshirtsRepository
     {
+        readonly TheRangeContext _ctx;
+
+        public SweatshirtsRepository(TheRangeContext ctx)
+        {
+            _ctx = ctx;
+        }
         public Sweatshirts CreateSweatshirts(Sweatshirts sweatshirts)
         {
             throw new NotImplementedException();
@@ -23,22 +29,23 @@ namespace TheRange.Infrastructure.SQL.Data.MensRepositories
             throw new NotImplementedException();
         }
 
-        public List<Sweatshirts> ReadAll()
+        public IEnumerable<Sweatshirts> SortSweatshirtsByColour()
         {
             throw new NotImplementedException();
         }
 
-        public List<Sweatshirts> ReadByID(Sweatshirts sweatshirts)
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<Sweatshirts> SortSweatshirtsByPrice()
-        {
-            throw new NotImplementedException();
-        }
-
+        
         public void UpdateSweatshirts(int Id, Sweatshirts sweatshirts)
+        {
+            throw new NotImplementedException();
+        }
+
+        IEnumerable<Sweatshirts> ISweatshirtsRepository.ReadAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        IEnumerable<Sweatshirts> ISweatshirtsRepository.ReadByID(Sweatshirts sweatshirts)
         {
             throw new NotImplementedException();
         }

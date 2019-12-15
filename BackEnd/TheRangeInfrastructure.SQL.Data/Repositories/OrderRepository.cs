@@ -9,6 +9,12 @@ namespace TheRange.Infrastructure.SQL.Data
 {
     public class OrderRepository : IOrderRepository
     {
+        readonly TheRangeContext _ctx;
+
+        public OrderRepository(TheRangeContext ctx)
+        {
+            _ctx = ctx;
+        }
         public Order CreateOrder(Order order)
         {
             throw new NotImplementedException();
@@ -19,7 +25,7 @@ namespace TheRange.Infrastructure.SQL.Data
             throw new NotImplementedException();
         }
 
-        public List<Order> GetFilteredOrders(Filter filter)
+        public IEnumerable<Order> GetFilteredOrders(Core.Entity.Filter filter)
         {
             throw new NotImplementedException();
         }
@@ -29,12 +35,12 @@ namespace TheRange.Infrastructure.SQL.Data
             throw new NotImplementedException();
         }
 
-        public List<Order> ReadAllOrders()
+        public IEnumerable<Order> ReadAllOrders()
         {
             throw new NotImplementedException();
         }
 
-        public List<Order> ReadById(int id)
+        public IEnumerable<Order> ReadById(int id)
         {
             throw new NotImplementedException();
         }
