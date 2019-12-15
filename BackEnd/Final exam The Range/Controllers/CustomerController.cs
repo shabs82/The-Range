@@ -24,8 +24,17 @@ namespace TheRange.UI.Rest.API.Controllers
         [HttpPost]
         public ActionResult Post([FromBody] Customer customer)
         {
-            return Ok(_customerService.CreateCustomer(customer));
+            try
+            {
+                return Ok(_customerService.CreateCustomer(customer));
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
         }
+
+
         [Authorize]
         [HttpGet("{id}")]
         public Customer GetCustomerByID(int id)
@@ -39,15 +48,34 @@ namespace TheRange.UI.Rest.API.Controllers
             return Ok(_customerService.GetCustomer());
         }
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] Customer customer)
+        public ActionResult Put(int id, [FromBody] Customer customer)
         {
-            _customerService.UpdateCustomer(id, customer);
+            try
+            {
+                if (id != customer.Id)
+                {
+                    return BadRequest("Parameter ID and customer ID have to be the same");
+                }
+                return Ok(_customerService.UpdateCustomer(id,customer));
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
         }
 
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public ActionResult Delete(int id)
         {
-            _customerService.DeleteCustomer(id);
+            try
+            {
+                _customerService.DeleteCustomer(id);
+                return Ok($"Deleted owner with Id: {id}");
+            }
+            catch (Exception e)
+            {
+                return NotFound(e.Message);
+            }
         }
     }
 }

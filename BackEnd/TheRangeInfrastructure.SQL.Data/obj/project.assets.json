@@ -6116,8 +6116,8 @@
     },
     "TheRange.Core/1.0.0": {
       "type": "project",
-      "path": "../Final exam project.core/TheRange.Core.csproj",
-      "msbuildProject": "../Final exam project.core/TheRange.Core.csproj"
+      "path": "../TheRange.Core/TheRange.Core.csproj",
+      "msbuildProject": "../TheRange.Core/TheRange.Core.csproj"
     },
     "TheRange.Core.Entity/1.0.0": {
       "type": "project",
@@ -6167,11 +6167,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\Final exam project.core\\TheRange.Core.csproj": {
-              "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\Final exam project.core\\TheRange.Core.csproj"
-            },
             "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj": {
               "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRange.Core.Entity\\TheRange.Core.Entity.csproj"
+            },
+            "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRange.Core\\TheRange.Core.csproj": {
+              "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\TheRange.Core\\TheRange.Core.csproj"
             }
           }
         }

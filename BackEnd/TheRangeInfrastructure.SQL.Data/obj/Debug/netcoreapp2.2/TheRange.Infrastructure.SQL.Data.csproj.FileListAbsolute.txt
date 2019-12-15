@@ -16,3 +16,11 @@ C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Range\BackEnd\TheRang
 C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Range\BackEnd\TheRangeInfrastructure.SQL.Data\obj\Debug\netcoreapp2.2\TheRange.Infrastructure.SQL.Data.AssemblyInfo.cs
 C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Range\BackEnd\TheRangeInfrastructure.SQL.Data\obj\Debug\netcoreapp2.2\TheRange.Infrastructure.SQL.Data.dll
 C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Range\BackEnd\TheRangeInfrastructure.SQL.Data\obj\Debug\netcoreapp2.2\TheRange.Infrastructure.SQL.Data.pdb
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Range\BackEnd\TheRangeInfrastructure.SQL.Data\bin\Debug\netcoreapp2.2\TheRange.Infrastructure.SQL.Data.deps.json
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Range\BackEnd\TheRangeInfrastructure.SQL.Data\bin\Debug\netcoreapp2.2\TheRange.Infrastructure.SQL.Data.dll
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Range\BackEnd\TheRangeInfrastructure.SQL.Data\bin\Debug\netcoreapp2.2\TheRange.Infrastructure.SQL.Data.pdb
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Range\BackEnd\TheRangeInfrastructure.SQL.Data\bin\Debug\netcoreapp2.2\TheRange.Core.dll
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Range\BackEnd\TheRangeInfrastructure.SQL.Data\bin\Debug\netcoreapp2.2\TheRange.Core.Entity.dll
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Range\BackEnd\TheRangeInfrastructure.SQL.Data\bin\Debug\netcoreapp2.2\TheRange.Core.Entity.pdb
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Range\BackEnd\TheRangeInfrastructure.SQL.Data\bin\Debug\netcoreapp2.2\TheRange.Core.pdb
+C:\Users\kulsoom-Abbas\Desktop\Uni Coursework\3rd Semester\Range\BackEnd\TheRangeInfrastructure.SQL.Data\obj\Debug\netcoreapp2.2\TheRange.Infrastructure.SQL.Data.csproj.CopyComplete

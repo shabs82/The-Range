@@ -19,7 +19,6 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\Final exam project.core\TheRange.Core.csproj" />
     <ProjectReference Include="..\TheRange.Core.Entity\TheRange.Core.Entity.csproj" />
     <ProjectReference Include="..\TheRangeInfrastructure.SQL.Data\TheRange.Infrastructure.SQL.Data.csproj" />
   </ItemGroup>
