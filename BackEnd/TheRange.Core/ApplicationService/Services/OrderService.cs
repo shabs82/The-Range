@@ -1,19 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
-using Final_exam_project.core.DomainService;
+using Final_exam_project.core.ApplicationService;
 using TheRange.Core.Entity;
 
-namespace TheRange.Infrastructure.SQL.Data
+namespace TheRange.Core.ApplicationService.Services
 {
-    public class OrderRepository : IOrderRepository
+    public class OrderService : IOrderService
     {
-        readonly TheRangeContext _ctx;
-
-        public OrderRepository(TheRangeContext ctx)
-        {
-            _ctx = ctx;
-        }
         public Order CreateOrder(Order order)
         {
             throw new NotImplementedException();
@@ -24,7 +17,7 @@ namespace TheRange.Infrastructure.SQL.Data
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Order> GetFilteredOrders(Filter filter)
+        public List<Order> GetFilteredOrders(Filter filter)
         {
             throw new NotImplementedException();
         }
@@ -34,12 +27,12 @@ namespace TheRange.Infrastructure.SQL.Data
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Order> ReadAllOrders()
+        public List<Order> ReadAllOrders()
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Order> ReadById(int id)
+        public List<Order> ReadById(int id)
         {
             throw new NotImplementedException();
         }

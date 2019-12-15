@@ -52,7 +52,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 FirstName = "Craig ",
                 LastName = "Newton",
                 Address = "bungalow street 43",
-                PhoneNumber = 3456789,
+                PhoneNumber = "3456789",
                 Email = "abc@live.co.uk",
             });
 
@@ -62,7 +62,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 FirstName = "Jack",
                 LastName = "Taylor",
                 Address = "romastrasse 55",
-                PhoneNumber = 1235698,
+                PhoneNumber = "1235698",
                 Email = "xyz@live.co.uk"
 
             });
@@ -71,7 +71,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 FirstName = "Zack",
                 LastName = "Cook",
                 Address = "windsor 214",
-                PhoneNumber = 254897,
+                PhoneNumber = "254897",
                 Email = "smt@live.co.uk",
             });
 

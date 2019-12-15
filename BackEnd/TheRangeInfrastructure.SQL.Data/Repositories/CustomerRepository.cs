@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using Final_exam_project.core.DomainService;
+using Microsoft.EntityFrameworkCore;
 using TheRange.Core.Entity;
 
 namespace TheRange.Infrastructure.SQL.Data
@@ -16,22 +18,27 @@ namespace TheRange.Infrastructure.SQL.Data
         }
         public Customer CreateCustomer(Customer customer)
         {
-            throw new NotImplementedException();
+            _ctx.Attach(customer).State = EntityState.Added;
+            _ctx.SaveChanges();
+            return customer;
         }
 
         public Customer DeleteCustomer(int Id)
         {
-            throw new NotImplementedException();
+            Customer customer = GetCustomerById(Id);
+            _ctx.Attach(customer).State = EntityState.Deleted;
+            _ctx.SaveChanges();
+            return customer;
         }
 
         public IEnumerable<Customer> GetCustomer()
         {
-            throw new NotImplementedException();
+            return _ctx.Customers.ToList();
         }
 
         public Customer GetCustomerById(int Id)
         {
-            throw new NotImplementedException();
+            return _ctx.Customers.AsNoTracking().Include(c=> c.Orders).FirstOrDefault(o => o.Id == Id);
         }
 
         public Customer NewCustomer(int Id, string FirstName, string LastName, string Address, string Email, string PhoneNumber)
@@ -41,7 +48,10 @@ namespace TheRange.Infrastructure.SQL.Data
 
         public Customer UpdateCustomer(int Id, Customer customer)
         {
-            throw new NotImplementedException();
+            _ctx.Attach(customer).State = EntityState.Modified;
+            _ctx.Entry(customer).Collection(c => c.Orders).IsModified = true;
+            _ctx.SaveChanges();
+            return customer;
         }
     }
 }

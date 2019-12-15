@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29318.209
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheRange.UI.Rest.API", "Final exam The Range\TheRange.UI.Rest.API.csproj", "{BB1E1B92-33E7-438F-ABAE-65341719EA07}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheRange.Core", "Final exam project.core\TheRange.Core.csproj", "{521A6B11-CAB7-44F0-A30F-559C10749D83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheRange.UI.Rest.API", "Final exam The Range\TheRange.UI.Rest.API.csproj", "{BB1E1B92-33E7-438F-ABAE-65341719EA07}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E296827D-465C-4B9A-8B23-467162F078E2}"
 EndProject
@@ -13,11 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{2B2DC366-8127-439F-90E0-A4601C37C840}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheRange.Core.Entity", "TheRange.Core.Entity\TheRange.Core.Entity.csproj", "{539EBDF1-4267-4F5A-B54C-4D73FBDCAB17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheRange.Core.Entity", "TheRange.Core.Entity\TheRange.Core.Entity.csproj", "{539EBDF1-4267-4F5A-B54C-4D73FBDCAB17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheRange.Infrastructure.SQL.Data", "TheRangeInfrastructure.SQL.Data\TheRange.Infrastructure.SQL.Data.csproj", "{E1159335-1A8F-4932-9BBB-5AF5A5CD0F7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheRange.Infrastructure.SQL.Data", "TheRangeInfrastructure.SQL.Data\TheRange.Infrastructure.SQL.Data.csproj", "{E1159335-1A8F-4932-9BBB-5AF5A5CD0F7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RanchTest", "RanchTest\RanchTest.csproj", "{EE0B6202-AA7C-4338-B82F-707FA72B4DC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RanchTest", "RanchTest\RanchTest.csproj", "{EE0B6202-AA7C-4338-B82F-707FA72B4DC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheRange.Core", "TheRange.Core\TheRange.Core.csproj", "{C581407A-E30D-4542-B506-813B1F8CFC69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,6 @@ Global
 		{BB1E1B92-33E7-438F-ABAE-65341719EA07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB1E1B92-33E7-438F-ABAE-65341719EA07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB1E1B92-33E7-438F-ABAE-65341719EA07}.Release|Any CPU.Build.0 = Release|Any CPU
-		{521A6B11-CAB7-44F0-A30F-559C10749D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{521A6B11-CAB7-44F0-A30F-559C10749D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{521A6B11-CAB7-44F0-A30F-559C10749D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{521A6B11-CAB7-44F0-A30F-559C10749D83}.Release|Any CPU.Build.0 = Release|Any CPU
 		{539EBDF1-4267-4F5A-B54C-4D73FBDCAB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{539EBDF1-4267-4F5A-B54C-4D73FBDCAB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{539EBDF1-4267-4F5A-B54C-4D73FBDCAB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,15 +41,19 @@ Global
 		{EE0B6202-AA7C-4338-B82F-707FA72B4DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE0B6202-AA7C-4338-B82F-707FA72B4DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE0B6202-AA7C-4338-B82F-707FA72B4DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C581407A-E30D-4542-B506-813B1F8CFC69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C581407A-E30D-4542-B506-813B1F8CFC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C581407A-E30D-4542-B506-813B1F8CFC69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C581407A-E30D-4542-B506-813B1F8CFC69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BB1E1B92-33E7-438F-ABAE-65341719EA07} = {2B2DC366-8127-439F-90E0-A4601C37C840}
-		{521A6B11-CAB7-44F0-A30F-559C10749D83} = {E296827D-465C-4B9A-8B23-467162F078E2}
 		{539EBDF1-4267-4F5A-B54C-4D73FBDCAB17} = {E296827D-465C-4B9A-8B23-467162F078E2}
 		{E1159335-1A8F-4932-9BBB-5AF5A5CD0F7D} = {27D8F7AB-D239-4DC0-8090-7B4B780DE356}
+		{C581407A-E30D-4542-B506-813B1F8CFC69} = {E296827D-465C-4B9A-8B23-467162F078E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69F9A71A-5D35-4393-97C6-FFCAE87544F7}
