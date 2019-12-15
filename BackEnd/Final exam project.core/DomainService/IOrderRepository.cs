@@ -10,10 +10,10 @@ namespace Final_exam_project.core.DomainService
     {
         Order NewOrder(int Id, DateTime date);
         Order CreateOrder(Order order);
-        List<Order> ReadAllOrders();
-        List<Order> ReadById(int id);
+        IEnumerable<Order> ReadAllOrders();
+        IEnumerable<Order> ReadById(int id);
         Order Update(Order order);
         Order Delete(int id);
-        List<Order> GetFilteredOrders(Filter filter);
+        IEnumerable<Order> GetFilteredOrders(TheRange.Core.Entity.Filter filter);
     }
 }

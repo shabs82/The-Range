@@ -8,6 +8,12 @@ namespace TheRange.Infrastructure.SQL.Data.MensRepositories
 {
     public class TopsRepository : ITopsRepository
     {
+        readonly TheRangeContext _ctx;
+
+        public TopsRepository(TheRangeContext ctx)
+        {
+            _ctx = ctx;
+        }
         public Tops CreateTops(Tops tops)
         {
             throw new NotImplementedException();
@@ -23,22 +29,22 @@ namespace TheRange.Infrastructure.SQL.Data.MensRepositories
             throw new NotImplementedException();
         }
 
-        public List<Tops> ReadAll()
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<Tops> ReadByID(Tops tops)
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<Tops> SortTopsByColour()
-        {
-            throw new NotImplementedException();
-        }
-
         public void UpdateTops(int Id, Tops tops)
+        {
+            throw new NotImplementedException();
+        }
+
+        IEnumerable<Tops> ITopsRepository.ReadAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        IEnumerable<Tops> ITopsRepository.ReadByID(Tops tops)
+        {
+            throw new NotImplementedException();
+        }
+
+        IEnumerable<Tops> ITopsRepository.SortTopsByColour()
         {
             throw new NotImplementedException();
         }

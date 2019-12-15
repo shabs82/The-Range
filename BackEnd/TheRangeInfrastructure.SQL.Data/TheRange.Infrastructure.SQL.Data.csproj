@@ -17,4 +17,8 @@
     <ProjectReference Include="..\TheRange.Core.Entity\TheRange.Core.Entity.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Repositories\MensRepositories\" />
+  </ItemGroup>
+
 </Project>
