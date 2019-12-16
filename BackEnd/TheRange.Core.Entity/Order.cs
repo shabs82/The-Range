@@ -12,7 +12,10 @@ namespace TheRange.Core.Entity
         public Customer Customers { get; set; }//one order has one cust
         public List<Tops> Tops { get; set; }//one order has many umbrellas
         public List<Sweatshirts> Sweatshirts { get; set; }
+        public List<Product> Products{ get; set; }
         public DateTime OrderDate { get; set; }
+        public DateTime DeliveryDate { get; set; }
+        public string Address { get; set; }
     }
 }
 

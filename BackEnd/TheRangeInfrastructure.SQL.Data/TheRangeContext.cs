@@ -14,6 +14,7 @@ namespace TheRange.Infrastructure.SQL.Data
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<User> Users { get; set; }
+        public  DbSet<Product> Products { get; set; }
 
         public TheRangeContext(DbContextOptions<TheRangeContext> opt) : base(opt) { }
 
@@ -21,19 +22,20 @@ namespace TheRange.Infrastructure.SQL.Data
         {
 
             modelBuilder.Entity<Order>() //one order has many umbrellas
-                .HasMany(e => e.Sweatshirts) //each umbrella has one order
+                .HasMany(e => e.Products) //each umbrella has one order
                 .WithOne(c => c.Order) // each umbrella has one order
                 .OnDelete(DeleteBehavior.SetNull);
 
-            modelBuilder.Entity<Order>() //one order has many umbrellas
+            /*modelBuilder.Entity<Order>() //one order has many umbrellas
                 .HasMany(e => e.Tops) //each umbrella has one order
                 .WithOne(c => c.Order) // each umbrella has one order
-                .OnDelete(DeleteBehavior.SetNull);
+                .OnDelete(DeleteBehavior.SetNull);*/
 
             modelBuilder.Entity<Order>()
                 .HasOne(e => e.Customers)
                 .WithMany(c => c.Orders)
                 .OnDelete(DeleteBehavior.SetNull);
+
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Text;
 using TheRange.Core.Entity;
 using TheRange.Core.Helper;
@@ -74,6 +75,139 @@ namespace TheRange.Infrastructure.SQL.Data
                 PhoneNumber = "254897",
                 Email = "smt@live.co.uk",
             });
+
+            var prod1 = ctx.Products.Add(new Product()
+            {
+                 Size = "s",
+                 Colour = "Grey",
+                 Brand = "Boss",
+                 Type = "Sweatshirt",
+                 Price = 25
+            });
+
+            var prod2 = ctx.Products.Add(new Product()
+            {
+                Size = "m",
+                Colour = "Grey",
+                Brand = "Boss",
+                Type = "Sweatshirt",
+                Price = 25
+            });
+
+            var prod3 = ctx.Products.Add(new Product()
+            {
+                Size = "l",
+                Colour = "Grey",
+                Brand = "Boss",
+                Type = "Sweatshirt",
+                Price = 25
+            });
+
+            var prod4 = ctx.Products.Add(new Product()
+            {
+                Size = "s",
+                Colour = "Grey",
+                Brand = "Boss",
+                Type = "Top",
+                Price = 25
+            });
+            var prod5 = ctx.Products.Add(new Product()
+            {
+                Size = "m",
+                Colour = "Grey",
+                Brand = "Boss",
+                Type = "Top",
+                Price = 25
+            });
+            var prod7 = ctx.Products.Add(new Product()
+            {
+                Size = "l",
+                Colour = "Grey",
+                Brand = "Boss",
+                Type = "Top",
+                Price = 25
+            });
+
+            var prod8 = ctx.Products.Add(new Product()
+            {
+                Size = "s",
+                Colour = "Black",
+                Brand = "Boss",
+                Type = "Sweatshirt",
+                Price = 25
+            });
+
+            var prod9 = ctx.Products.Add(new Product()
+            {
+                Size = "m",
+                Colour = "Black",
+                Brand = "Boss",
+                Type = "Sweatshirt",
+                Price = 25
+            });
+
+            var prod10 = ctx.Products.Add(new Product()
+            {
+                Size = "l",
+                Colour = "Black",
+                Brand = "Boss",
+                Type = "Sweatshirt",
+                Price = 25
+            });
+
+            var prod11 = ctx.Products.Add(new Product()
+            {
+                Size = "s",
+                Colour = "Denim",
+                Brand = "DIESEL",
+                Type = "Jeans",
+                Price = 35
+            });
+
+            var prod12 = ctx.Products.Add(new Product()
+            {
+                Size = "m",
+                Colour = "Denim",
+                Brand = "Diesel",
+                Type = "Jeans",
+                Price =35
+            });
+
+            var prod13 = ctx.Products.Add(new Product()
+            {
+                Size = "l",
+                Colour = "Denim",
+                Brand = "EA",
+                Type = "Jeans",
+                Price = 35
+            });
+
+            var prod14 = ctx.Products.Add(new Product()
+            {
+                Size = "s",
+                Colour = "White",
+                Brand = "Lacoste",
+                Type = "Shirt",
+                Price = 40
+            });
+
+             var prod15 = ctx.Products.Add(new Product()
+            {
+                Size = "m",
+                Colour = "White",
+                Brand = "Lacoste",
+                Type = "Shirt",
+                Price = 40
+            });
+
+             var prod16 = ctx.Products.Add(new Product()
+             {
+                 Size = "l",
+                 Colour = "White",
+                 Brand = "Lacoste",
+                 Type = "Shirt",
+                 Price = 40
+             });
 
         }
     }
