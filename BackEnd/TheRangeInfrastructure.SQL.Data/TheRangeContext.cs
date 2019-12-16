@@ -20,13 +20,13 @@ namespace TheRange.Infrastructure.SQL.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
-            modelBuilder.Entity<Sweatshirts>() //one umbrella has 
-                .HasOne(e => e.Order) //one order
-                .WithMany(c => c.Sweatshirts) //one order can have many umbrellas
-                .OnDelete(DeleteBehavior.SetNull); // if umbrella is deleted the order will be set to null.
-
             modelBuilder.Entity<Order>() //one order has many umbrellas
                 .HasMany(e => e.Sweatshirts) //each umbrella has one order
+                .WithOne(c => c.Order) // each umbrella has one order
+                .OnDelete(DeleteBehavior.SetNull);
+
+            modelBuilder.Entity<Order>() //one order has many umbrellas
+                .HasMany(e => e.Tops) //each umbrella has one order
                 .WithOne(c => c.Order) // each umbrella has one order
                 .OnDelete(DeleteBehavior.SetNull);
 
