@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using TheRange.Core.Entity;
+
+
+
 
 namespace TheRange.Core.Entity
 {

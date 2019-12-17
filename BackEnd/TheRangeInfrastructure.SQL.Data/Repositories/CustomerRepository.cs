@@ -38,12 +38,12 @@ namespace TheRange.Infrastructure.SQL.Data
 
         public Customer GetCustomerById(int Id)
         {
-            return _ctx.Customers.AsNoTracking().Include(c=> c.Orders).FirstOrDefault(o => o.Id == Id);
+            return _ctx.Customers.AsNoTracking().Include(c=> c.Orders).FirstOrDefault(c => c.Id == Id);
         }
 
         public Customer NewCustomer(int Id, string FirstName, string LastName, string Address, string Email, string PhoneNumber)
         {
-            throw new NotImplementedException();
+            return null;
         }
 
         public Customer UpdateCustomer(int Id, Customer customer)
