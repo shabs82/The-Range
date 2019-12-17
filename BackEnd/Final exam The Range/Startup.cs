@@ -25,6 +25,7 @@ using TheRange.Core.DomainService;
 using TheRange.Core.Helper;
 using TheRange.Infrastructure.SQL.Data;
 using TheRange.Infrastructure.SQL.Data.MensRepositories;
+using TheRange.Infrastructure.SQL.Data.Repositories;
 
 namespace Final_exam_The_Range
 {
@@ -76,6 +77,8 @@ namespace Final_exam_The_Range
 
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IProductService, ProductService>();
             services.AddScoped<IOrderRepository, OrderRepository>();
             services.AddScoped<IOrderService, OrderService>();
             services.AddScoped<ISweatshirtsRepository, SweatshirtsRepository>();

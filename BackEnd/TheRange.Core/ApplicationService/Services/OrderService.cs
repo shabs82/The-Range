@@ -15,9 +15,10 @@ namespace TheRange.Core.ApplicationService.Services
         {
             _orderRepository = orderRepository;
         }
+
         public Order CreateOrder(Order newOrder)
         {
-           
+
             return _orderRepository.CreateOrder(newOrder);
         }
 
@@ -33,7 +34,7 @@ namespace TheRange.Core.ApplicationService.Services
 
         public Order NewOrder(int Id, DateTime date)
         {
-            Order order = new Order() { id = Id, OrderDate = date };
+            Order order = new Order() {id = Id, OrderDate = date};
             return order;
         }
 
@@ -68,10 +69,9 @@ namespace TheRange.Core.ApplicationService.Services
                 throw new ArgumentException($"Cannot find a Order with an ID: {order.id}");
             }
         }
-    }
 
 
-    private void ValidateCreate(Order order)
+        private void ValidateCreate(Order order)
         {
             ValidateNull(order);
             if (order.id != default)
@@ -82,7 +82,7 @@ namespace TheRange.Core.ApplicationService.Services
             ValidateOrderDate(order);
             ValidateDeliveryDate(order);
             ValidateAddress(order);
-            
+
 
             //ValidateFirstName(order);
             //ValidateLastName(order);
@@ -95,7 +95,7 @@ namespace TheRange.Core.ApplicationService.Services
             if (order == null)
             {
                 throw new ArgumentNullException("Order is null");
-            };
+            }
         }
 
         private void ValidateOrderDate(Order order)
@@ -122,5 +122,13 @@ namespace TheRange.Core.ApplicationService.Services
             }
         }
     }
-
 }
+
+
+
+
+
+
+
+
+

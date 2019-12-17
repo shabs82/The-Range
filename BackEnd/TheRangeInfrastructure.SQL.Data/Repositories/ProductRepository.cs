@@ -14,7 +14,7 @@ namespace TheRange.Infrastructure.SQL.Data.Repositories
             throw new NotImplementedException();
         }
 
-        public void DeleteProduct(int Id)
+        public Product DeleteProduct(int Id)
         {
             throw new NotImplementedException();
         }
@@ -29,12 +29,12 @@ namespace TheRange.Infrastructure.SQL.Data.Repositories
             throw new NotImplementedException();
         }
 
-        public List<Product> ReadByID(Product product)
+        public List<Product> ReadById(int Id)
         {
             throw new NotImplementedException();
         }
 
-        public Sweatshirts SearchProduct(Product product)
+        public Product SearchProduct(Product product)
         {
             throw new NotImplementedException();
         }
@@ -48,7 +48,7 @@ namespace TheRange.Infrastructure.SQL.Data.Repositories
             throw new NotImplementedException();
         }
 
-        public void UpdateProduct(int Id, Product product)
+        public void UpdateProduct(int Id, Product productValue)
         {
             throw new NotImplementedException();
         }
