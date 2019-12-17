@@ -29,32 +29,17 @@ namespace TheRange.Core.ApplicationService.Services
             return product;
         }
 
-        public Product NewProduct(string Size, string Colour, string Brand, string Type, decimal Price)
-        {
-            throw new NotImplementedException();
-        }
-
         public List<Product> ReadAll()
         {
             return _productRepository.ReadAll().ToList();
         }
 
-        public List<Product> ReadByID(int Id)
+        public Product ReadByID(int Id)
         {
-            throw new NotImplementedException();
+            return _productRepository.ReadById(Id);
         }
 
-        public Product SearchProduct(Product product)
-        {
-            return _productRepository.SearchProduct(product);
-        }
-
-        public List<Product> SortProductByColour()
-        {
-            return null;
-        }
-
-        public List<Product> SortProductByType(TheRange.Core.Entity.Type type)
+        public List<Product> SortProductByType(Type type)
         {
             var list = _productRepository.ReadAll();
             var listByType = list.Where(Product => Product.Type.Equals(type));

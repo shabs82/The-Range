@@ -1,56 +1,62 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using Microsoft.EntityFrameworkCore;
 using TheRange.Core.DomainService;
 using TheRange.Core.Entity;
 using TheRange.Core.Entity.Mens;
+using Type = TheRange.Core.Entity.Type;
 
 namespace TheRange.Infrastructure.SQL.Data.Repositories
 {
     public class ProductRepository : IProductRepository
     {
-        public Product CreateProduct(Product product)
+        private readonly TheRangeContext _ctx;
+
+        public ProductRepository(TheRangeContext ctx)
         {
-            throw new NotImplementedException();
+            _ctx = ctx ;
+        }
+        public Product CreateProduct(Product newProduct)
+        {
+            _ctx.Products.Attach(newProduct).State = EntityState.Added;
+            _ctx.SaveChanges();
+            return newProduct;
         }
 
-        public Product DeleteProduct(int Id)
+        public Product DeleteProduct(int productId)
         {
-            throw new NotImplementedException();
+            var productToDelete = _ctx.Products.FirstOrDefault(p => p.Id == productId);
+            _ctx.Products.Remove(productToDelete);
+            _ctx.SaveChanges();
+            return productToDelete;
         }
 
-        public Product NewProduct(string Size, string Colour, string Brand, string Type, decimal Price)
+        public Product NewProduct(string Size, string Colour, string Brand, Type Type, decimal Price)
         {
-            throw new NotImplementedException();
+            return null;
         }
 
-        public List<Product> ReadAll()
+        public IEnumerable<Product> ReadAll()
         {
-            throw new NotImplementedException();
+            return _ctx.Products.ToList();
         }
 
-        public List<Product> ReadById(int Id)
+        public Product ReadById(int Id)
         {
-            throw new NotImplementedException();
+            return _ctx.Products.AsNoTracking().FirstOrDefault(p => p.Id == Id);
+        }
+        public IEnumerable<Product> SortProductByType()
+        {
+            return null;
         }
 
-        public Product SearchProduct(Product product)
+        public void UpdateProduct(int Id, Product updatedProduct)
         {
-            throw new NotImplementedException();
-        }
-
-        public List<Product> SortProductByColour()
-        {
-            throw new NotImplementedException();
-        }
-        public List<Product> SortProductByType()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void UpdateProduct(int Id, Product productValue)
-        {
-            throw new NotImplementedException();
+            _ctx.Products.Attach(updatedProduct).State = EntityState.Modified;
+            _ctx.SaveChanges();
+           
         }
     }
 }

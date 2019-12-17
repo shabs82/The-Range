@@ -41,6 +41,7 @@ namespace TheRange.UI.Rest.API.Controllers
         {
             return _customerService.GetCustomerById(id);
         }
+
         [Authorize(Roles = "administrator")]
         [HttpGet]
         public ActionResult<IEnumerable<Customer>> GetCustomer()

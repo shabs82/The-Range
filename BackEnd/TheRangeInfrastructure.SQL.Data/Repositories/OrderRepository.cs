@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using Final_exam_project.core.DomainService;
+using Microsoft.EntityFrameworkCore;
 using TheRange.Core.Entity;
 
 namespace TheRange.Infrastructure.SQL.Data
@@ -14,39 +16,57 @@ namespace TheRange.Infrastructure.SQL.Data
         {
             _ctx = ctx;
         }
-        public Order CreateOrder(Order order)
+
+        public Order CreateOrder(Order newOrder)
         {
-            throw new NotImplementedException();
+            _ctx.Orders.Attach(newOrder).State = EntityState.Added;
+            _ctx.SaveChanges();
+            return newOrder;
         }
 
         public Order Delete(int id)
         {
-            throw new NotImplementedException();
+            var orderToDelete = _ctx.Orders.FirstOrDefault(o => o.id == id);
+            _ctx.Orders.Remove(orderToDelete);
+            _ctx.SaveChanges();
+            return orderToDelete;
         }
 
         public IEnumerable<Order> GetFilteredOrders(Filter filter)
         {
-            throw new NotImplementedException();
+            if (filter == null)
+            {
+                return _ctx.Orders.ToList();
+            }
+
+            return _ctx.Orders
+                .Skip((filter.CurrentPage - 1) * filter.ItemsPerPage)
+                .Take(filter.ItemsPerPage);
         }
+
+
 
         public Order NewOrder(int Id, DateTime date)
         {
-            throw new NotImplementedException();
+            return null;
         }
 
-        public IEnumerable<Order> ReadAllOrders()
-        {
-            throw new NotImplementedException();
+            public IEnumerable<Order> ReadAllOrders()
+            {
+                return _ctx.Orders.ToList();
         }
 
-        public IEnumerable<Order> ReadById(int id)
-        {
-            throw new NotImplementedException();
+            public IEnumerable<Order> ReadById(int Id)
+            {
+            return _ctx.Orders.AsNoTracking().FirstOrDefault(o => o.Id == Id);
         }
 
-        public Order Update(Order order)
-        {
-            throw new NotImplementedException();
+            public Order Update(Order updatedOrder)
+            {
+            _ctx.Orders.Attach(updatedOrder).State = EntityState.Modified;
+            _ctx.Entry(updatedOrder);
+            _ctx.SaveChanges();
+            return updatedOrder;
+        }
         }
     }
-}
