@@ -10,15 +10,15 @@ namespace TheRange.Core.ApplicationService
     {
         Product NewProduct(string Size, string Colour, string Brand, string Type, Decimal Price);
         Product CreateProduct(Product product);
-        List<Product> ReadByID(Product product);
+        List<Product> ReadByID(int Id);
         List<Product> ReadAll();
-        void UpdateProduct(int Id, Product product);
-        void DeleteProduct(int Id);
-        Sweatshirts SearchProduct(Product product);
+        Product UpdateProduct(int Id, Product product);
+        Product DeleteProduct(int Id);
+        Product SearchProduct(Product product);
         List<Product> SortProductByColour();
         List<Product> SortProductByType();
 
 
     }
 }
-}
+

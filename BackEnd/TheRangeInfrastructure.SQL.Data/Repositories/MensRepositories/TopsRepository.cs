@@ -8,7 +8,7 @@ namespace TheRange.Infrastructure.SQL.Data.MensRepositories
 {
     public class TopsRepository : ITopsRepository
     {
-        readonly TheRangeContext _ctx;
+        private readonly TheRangeContext _ctx;
 
         public TopsRepository(TheRangeContext ctx)
         {

@@ -5,9 +5,8 @@ using TheRange.Core.Entity;
 
 namespace TheRange.Core.ApplicationService
 {
-   public  interface IUserService
+   public  interface IUserService 
     {
-
         User Create(User user);
         User Update(User user);
         User Delete(int id);
