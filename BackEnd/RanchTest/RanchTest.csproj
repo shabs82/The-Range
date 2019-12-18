@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Final exam The Range\TheRange.UI.Rest.API.csproj" />
     <ProjectReference Include="..\TheRange.Core.Entity\TheRange.Core.Entity.csproj" />
     <ProjectReference Include="..\TheRange.Core\TheRange.Core.csproj" />
     <ProjectReference Include="..\TheRangeInfrastructure.SQL.Data\TheRange.Infrastructure.SQL.Data.csproj" />

@@ -56,7 +56,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Address = "bungalow street 43",
                 PhoneNumber = "3456789",
                 Email = "abc@live.co.uk",
-            });
+            }).Entity;
 
             var cust2 = ctx.Customers.Add(new Customer()
             {
@@ -67,7 +67,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 PhoneNumber = "1235698",
                 Email = "xyz@live.co.uk"
 
-            });
+            }).Entity;
             var cust3 = ctx.Customers.Add(new Customer()
             {
                 FirstName = "Zack",
@@ -75,7 +75,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Address = "windsor 214",
                 PhoneNumber = "254897",
                 Email = "smt@live.co.uk",
-            });
+            }).Entity;
 
             var prod1 = ctx.Products.Add(new Product()
             {
@@ -84,7 +84,7 @@ namespace TheRange.Infrastructure.SQL.Data
                  Brand = "Boss",
                  Type = Type.Sweatshirt,
                  Price = 25
-            });
+            }).Entity;
 
             var prod2 = ctx.Products.Add(new Product()
             {
@@ -93,7 +93,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Brand = "Boss",
                 Type = Type.Sweatshirt,
                 Price = 25
-            });
+            }).Entity;
 
             var prod3 = ctx.Products.Add(new Product()
             {
@@ -102,7 +102,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Brand = "Boss",
                 Type = Type.Sweatshirt,                
                 Price = 25
-            });
+            }).Entity;
 
             var prod4 = ctx.Products.Add(new Product()
             {
@@ -111,7 +111,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Brand = "Boss",
                 Type = Type.Top,
                 Price = 25
-            });
+            }).Entity;
             var prod5 = ctx.Products.Add(new Product()
             {
                 Size = "m",
@@ -119,7 +119,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Brand = "Boss",
                 Type = Type.Top,
                 Price = 25
-            });
+            }).Entity;
             var prod7 = ctx.Products.Add(new Product()
             {
                 Size = "l",
@@ -127,7 +127,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Brand = "Boss",
                 Type = Type.Top,
                 Price = 25
-            });
+            }).Entity;
 
             var prod8 = ctx.Products.Add(new Product()
             {
@@ -136,7 +136,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Brand = "Boss",
                 Type = Type.Tshirt,
                 Price = 25
-            });
+            }).Entity;
 
             var prod9 = ctx.Products.Add(new Product()
             {
@@ -145,7 +145,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Brand = "Boss",
                 Type = Type.Tshirt,
                 Price = 25
-            });
+            }).Entity;
 
             var prod10 = ctx.Products.Add(new Product()
             {
@@ -154,7 +154,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Brand = "Boss",
                 Type =Type.Tshirt,
                 Price = 25
-            });
+            }).Entity;
 
             var prod11 = ctx.Products.Add(new Product()
             {
@@ -163,7 +163,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Brand = "DIESEL",
                 Type = Type.Jeans,
                 Price = 35
-            });
+            }).Entity;
 
             var prod12 = ctx.Products.Add(new Product()
             {
@@ -172,7 +172,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Brand = "Diesel",
                 Type = Type.Jeans,
                 Price =35
-            });
+            }).Entity;
 
             var prod13 = ctx.Products.Add(new Product()
             {
@@ -181,7 +181,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Brand = "EA",
                 Type = Type.Jeans,
                 Price = 35
-            });
+            }).Entity;
 
             var prod14 = ctx.Products.Add(new Product()
             {
@@ -190,7 +190,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Brand = "Lacoste",
                 Type = Type.Shirt,
                 Price = 40
-            });
+            }).Entity;
 
              var prod15 = ctx.Products.Add(new Product()
             {
@@ -199,7 +199,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Brand = "Lacoste",
                 Type = Type.Shirt,
                 Price = 40
-            });
+            }).Entity;
 
              var prod16 = ctx.Products.Add(new Product()
              {
@@ -208,8 +208,58 @@ namespace TheRange.Infrastructure.SQL.Data
                  Brand = "Lacoste",
                  Type = Type.Shirt,
                  Price = 40
-             });
-             ctx.SaveChanges();
+             }).Entity;
+
+             var order1 = ctx.Orders.Add(new Order()
+             {
+                 OrderDate = DateTime.Now,
+                 DeliveryDate = DateTime.Now,
+                 Address = "UK",
+                 Customers = cust1,
+             }).Entity;
+
+             var order2 = ctx.Orders.Add(new Order()
+             {
+                 OrderDate = DateTime.Now,
+                 DeliveryDate = DateTime.Now,
+                 Address = "UK",
+                 Customers = cust2,
+             }).Entity;
+
+             var order3 = ctx.Orders.Add(new Order()
+             {
+                 OrderDate = DateTime.Now,
+                 DeliveryDate = DateTime.Now,
+                 Address = "UK",
+                 Customers = cust3,
+             }).Entity;
+
+             var order4 = ctx.Orders.Add(new Order()
+             {
+                 OrderDate = DateTime.Now,
+                 DeliveryDate = DateTime.Now,
+                 Address = "Denmark",
+                 Customers = cust1,
+             }).Entity;
+
+             var order5 = ctx.Orders.Add(new Order()
+             {
+                 OrderDate = DateTime.Now,
+                 DeliveryDate = DateTime.Now,
+                 Address = "Denmark",
+                 Customers = cust2,
+             }).Entity;
+
+             var order6 = ctx.Orders.Add(new Order()
+             {
+                 OrderDate = DateTime.Now,
+                 DeliveryDate = DateTime.Now,
+                 Address = "Denmark",
+                 Customers = cust3,
+             }).Entity;
+
+
+            ctx.SaveChanges();
         }
     }
 }
