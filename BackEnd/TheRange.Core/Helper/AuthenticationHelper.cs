@@ -49,11 +49,6 @@ namespace TheRange.Core.Helper
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
 
-        public string GenerateToken(System.Web.Providers.Entities.User user)
-        {
-            throw new NotImplementedException();
-        }
-
         public bool VerifyPasswordHash(string password, byte[] storedHash, byte[] storedSalt)
         {
             using (var hmac = new System.Security.Cryptography.HMACSHA512(storedSalt))

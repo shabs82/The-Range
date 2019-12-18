@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Web.Providers.Entities;
+using TheRange.Core.Entity;
 
 namespace TheRange.Core.Helper
 {
