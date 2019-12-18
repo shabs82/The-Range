@@ -33,19 +33,6 @@ namespace TheRange.UI.Rest.API.Controllers
             }
         }
 
-        [HttpGet]
-        public ActionResult<IEnumerable<Order>> Get()
-        {
-            try
-            {
-                return Ok(_orderService.ReadAllOrders());
-            }
-            catch (Exception e)
-            {
-                return BadRequest(e.Message);
-            }
-
-        }
 
         [HttpGet("{id}")]
         public ActionResult<Order> Get(int id)

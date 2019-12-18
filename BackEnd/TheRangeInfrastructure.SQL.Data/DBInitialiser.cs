@@ -210,54 +210,93 @@ namespace TheRange.Infrastructure.SQL.Data
                  Price = 40
              }).Entity;
 
+            List<Product> list1 = new List<Product>()
+            {
+                prod1,prod2,prod3,prod4,prod5,prod7,prod8,prod9,prod10,prod11,prod12,prod13,prod14,prod16,
+                prod15
+            };
+
              var order1 = ctx.Orders.Add(new Order()
              {
                  OrderDate = DateTime.Now,
                  DeliveryDate = DateTime.Now,
                  Address = "UK",
                  Customers = cust1,
+                 Products = list1,
              }).Entity;
 
-             var order2 = ctx.Orders.Add(new Order()
+             List<Product> list2 = new List<Product>()
+             {
+                 prod1,prod2,prod3,prod4,prod5,prod7,prod8,prod9,prod10,prod11,prod12,prod13,prod14,prod16,
+                 prod15
+             };
+            var order2 = ctx.Orders.Add(new Order()
              {
                  OrderDate = DateTime.Now,
                  DeliveryDate = DateTime.Now,
                  Address = "UK",
                  Customers = cust2,
+                 Products = list2,
              }).Entity;
 
-             var order3 = ctx.Orders.Add(new Order()
+            List<Product> list3 = new List<Product>()
+            {
+                prod1,prod2,prod3,prod4,prod5,prod7,prod8,prod9,prod10,prod11,prod12,prod13,prod14,prod16,
+                prod15
+            };
+            var order3 = ctx.Orders.Add(new Order()
              {
                  OrderDate = DateTime.Now,
                  DeliveryDate = DateTime.Now,
                  Address = "UK",
                  Customers = cust3,
+                 Products = list3,
              }).Entity;
 
-             var order4 = ctx.Orders.Add(new Order()
+            List<Product> list4 = new List<Product>()
+            {
+                prod1,prod2,prod3,prod4,prod5,prod7,prod8,prod9,prod10,prod11,prod12,prod13,prod14,prod16,
+                prod15
+            };
+
+            var order4 = ctx.Orders.Add(new Order()
              {
                  OrderDate = DateTime.Now,
                  DeliveryDate = DateTime.Now,
                  Address = "Denmark",
                  Customers = cust1,
+                 Products = list4,
              }).Entity;
 
-             var order5 = ctx.Orders.Add(new Order()
+            List<Product> list5 = new List<Product>()
+            {
+                prod1,prod2,prod3,prod4,prod5,prod7,prod8,prod9,prod10,prod11,prod12,prod13,prod14,prod16,
+                prod15
+            };
+            var order5 = ctx.Orders.Add(new Order()
              {
                  OrderDate = DateTime.Now,
                  DeliveryDate = DateTime.Now,
                  Address = "Denmark",
                  Customers = cust2,
+                 Products = list5,
              }).Entity;
 
-             var order6 = ctx.Orders.Add(new Order()
+            List<Product> list6 = new List<Product>()
+            {
+                prod1,prod2,prod3,prod4,prod5,prod7,prod8,prod9,prod10,prod11,prod12,prod13,prod14,prod16,
+                prod15
+            };
+
+            var order6 = ctx.Orders.Add(new Order()
              {
                  OrderDate = DateTime.Now,
                  DeliveryDate = DateTime.Now,
                  Address = "Denmark",
                  Customers = cust3,
+                 Products = list6,
              }).Entity;
-
+             
 
             ctx.SaveChanges();
         }

@@ -27,7 +27,7 @@ namespace TheRange.Core.ApplicationService.Services
             return _orderRepository.Delete(id);
         }
 
-        public List<Order> GetFilteredOrders(Filter filter)
+        public List<Order> GetFilteredOrders(Filter filter = null)
         {
             return _orderRepository.GetFilteredOrders(filter).ToList();
         }
@@ -43,9 +43,9 @@ namespace TheRange.Core.ApplicationService.Services
             return _orderRepository.ReadAllOrders().ToList();
         }
 
-        public List<Order> ReadById(int id)
+        public Order ReadById(int id)
         {
-            return _orderRepository.ReadById(id).ToList();
+            return _orderRepository.ReadById(id);
         }
 
         public Order Update(Order updatedOrder)
