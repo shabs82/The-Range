@@ -42,19 +42,14 @@ namespace TheRange.Core.ApplicationService.Services
         public List<Product> SortProductByType(Type type)
         {
             var list = _productRepository.ReadAll();
-            var listByType = list.Where(Product => Product.Type.Equals(type));
+            var listByType = list.Where(P => P.Type == (type));
             return listByType.ToList();
         }
 
-        public List<Product> SortProductByType()
-        {
-            throw new NotImplementedException();
-        }
-
         public Product UpdateProduct(int Id, Product productValue)
-        {
-            _productRepository.UpdateProduct(Id, productValue);
-            return null;
+        { 
+           return _productRepository.UpdateProduct(Id, productValue);
+            
         }
     }
 

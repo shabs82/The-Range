@@ -13,9 +13,9 @@ namespace TheRange.Core.DomainService
         Product CreateProduct(Product product);
         Product ReadById(int Id);
         IEnumerable<Product> ReadAll();
-        void UpdateProduct(int Id, Product productValue);
+        Product UpdateProduct(int Id, Product productValue);
         Product DeleteProduct(int Id);
-        IEnumerable<Product> SortProductByType();
+        IEnumerable<Product> SortProductByType(Type type);
 
     }
 }

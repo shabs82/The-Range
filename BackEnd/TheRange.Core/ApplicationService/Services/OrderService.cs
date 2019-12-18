@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
 using Final_exam_project.core.ApplicationService;
 using Final_exam_project.core.DomainService;
 using TheRange.Core.Entity;
@@ -16,10 +18,13 @@ namespace TheRange.Core.ApplicationService.Services
             _orderRepository = orderRepository;
         }
 
+
+
         public Order CreateOrder(Order newOrder)
         {
-
-            return _orderRepository.CreateOrder(newOrder);
+            Order order = _orderRepository.CreateOrder(newOrder);// create method is being called of order repository object with input parameter of type order which returns object order of the type Order.
+            return order;
+            //return _orderRepository.CreateOrder(newOrder);
         }
 
         public Order Delete(int id)

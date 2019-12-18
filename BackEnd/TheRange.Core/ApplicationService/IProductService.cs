@@ -15,7 +15,7 @@ namespace TheRange.Core.ApplicationService
         List<Product> ReadAll();
         Product UpdateProduct(int Id, Product product);
         Product DeleteProduct(int Id);
-        List<Product> SortProductByType();
+        List<Product> SortProductByType(Type type);
 
 
     }
