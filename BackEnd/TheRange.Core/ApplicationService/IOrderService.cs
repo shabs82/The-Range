@@ -10,7 +10,7 @@ namespace Final_exam_project.core.ApplicationService
         Order NewOrder(int Id, DateTime date);
         Order CreateOrder(Order order);
         List<Order> ReadAllOrders();
-        List<Order> ReadById(int id);
+        Order ReadById(int id);
         Order Update(Order order);
         Order Delete(int id);
         List<Order> GetFilteredOrders(Filter filter);

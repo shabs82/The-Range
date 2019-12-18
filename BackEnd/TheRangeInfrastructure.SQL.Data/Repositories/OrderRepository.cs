@@ -34,9 +34,9 @@ namespace TheRange.Infrastructure.SQL.Data
 
         public IEnumerable<Order> GetFilteredOrders(Filter filter)
         {
-            if (filter == null)
+            if (filter.CurrentPage == 0 || filter.ItemsPerPage == 0)
             {
-                return _ctx.Orders.ToList();
+                return _ctx.Orders.Include(o => o.Products).Include(o => o.Customers).ToList();
             }
 
             return _ctx.Orders
@@ -53,13 +53,13 @@ namespace TheRange.Infrastructure.SQL.Data
 
             public IEnumerable<Order> ReadAllOrders()
             {
-                return _ctx.Orders.ToList();
+                return _ctx.Orders.Include(o => o.Products).ToList();
         }
 
-            public IEnumerable<Order> ReadById(int Id)
+            public Order ReadById(int Id)
             {
-            //return _ctx.Orders.AsNoTracking().FirstOrDefault(o => o.Id == Id);
-             return _ctx.Orders.ToList();
+            return _ctx.Orders.AsNoTracking().Include(o => o.Products).Include(o => o.Customers).FirstOrDefault(o => o.id == Id);
+            // return _ctx.Orders.ToList();
             }
 
             public Order Update(Order updatedOrder)

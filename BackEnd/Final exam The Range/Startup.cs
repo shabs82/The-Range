@@ -96,6 +96,7 @@ namespace Final_exam_The_Range
             {
                 options.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
                 options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+                options.SerializerSettings.MaxDepth = 5;
             });
 
             services.AddCors(options =>
