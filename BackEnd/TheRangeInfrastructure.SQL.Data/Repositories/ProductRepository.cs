@@ -45,18 +45,20 @@ namespace TheRange.Infrastructure.SQL.Data.Repositories
 
         public Product ReadById(int Id)
         {
-            return _ctx.Products.AsNoTracking().FirstOrDefault(p => p.Id == Id);
+            return _ctx.Products.AsNoTracking().Include(p=> p.Order).FirstOrDefault(p => p.Id == Id);
         }
-        public IEnumerable<Product> SortProductByType()
+        public IEnumerable<Product> SortProductByType(Type type)
         {
-            return null;
+           return ReadAll().Where(t => t.Type == type);
+            
         }
 
-        public void UpdateProduct(int Id, Product updatedProduct)
+        public Product UpdateProduct(int Id, Product updatedProduct)
         {
             _ctx.Products.Attach(updatedProduct).State = EntityState.Modified;
             _ctx.SaveChanges();
-           
+            return updatedProduct;
+
         }
     }
 }
