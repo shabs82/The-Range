@@ -58,8 +58,9 @@ namespace TheRange.Infrastructure.SQL.Data
 
             public IEnumerable<Order> ReadById(int Id)
             {
-            return _ctx.Orders.AsNoTracking().FirstOrDefault(o => o.Id == Id);
-        }
+            //return _ctx.Orders.AsNoTracking().FirstOrDefault(o => o.Id == Id);
+             return _ctx.Orders.ToList();
+            }
 
             public Order Update(Order updatedOrder)
             {
