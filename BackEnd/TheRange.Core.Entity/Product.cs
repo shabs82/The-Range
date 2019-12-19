@@ -4,9 +4,9 @@ using System.Text;
 
 namespace TheRange.Core.Entity
 {
-    public enum Type
+    public enum ClothType
     {
-        Top, Sweatshirt, Jeans, Shirt,Tshirt
+        Top, Sweatshirt, Jeans, Shirt, Tshirt
     }
     public class Product
     {
@@ -15,7 +15,7 @@ namespace TheRange.Core.Entity
         public string Colour { get; set; }
         public string Brand { get; set; }
         public decimal Price { get; set; }
-        public Type Type { get; set; }
+        public ClothType Type { get; set; }
         public Order Order { get; set; }
     }
 }

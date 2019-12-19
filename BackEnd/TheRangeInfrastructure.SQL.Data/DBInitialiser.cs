@@ -4,7 +4,6 @@ using System.Drawing;
 using System.Text;
 using TheRange.Core.Entity;
 using TheRange.Core.Helper;
-using Type = TheRange.Core.Entity.Type;
 
 namespace TheRange.Infrastructure.SQL.Data
 {
@@ -82,7 +81,7 @@ namespace TheRange.Infrastructure.SQL.Data
                  Size = "s",
                  Colour = "Grey",
                  Brand = "Boss",
-                 Type = Type.Sweatshirt,
+                 Type = ClothType.Sweatshirt,
                  Price = 25
             }).Entity;
 
@@ -91,7 +90,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Size = "m",
                 Colour = "Grey",
                 Brand = "Boss",
-                Type = Type.Sweatshirt,
+                Type = ClothType.Sweatshirt,
                 Price = 25
             }).Entity;
 
@@ -100,7 +99,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Size = "l",
                 Colour = "Grey",
                 Brand = "Boss",
-                Type = Type.Sweatshirt,                
+                Type = ClothType.Sweatshirt,                
                 Price = 25
             }).Entity;
 
@@ -109,7 +108,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Size = "s",
                 Colour = "Grey",
                 Brand = "Boss",
-                Type = Type.Top,
+                Type = ClothType.Top,
                 Price = 25
             }).Entity;
             var prod5 = ctx.Products.Add(new Product()
@@ -117,7 +116,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Size = "m",
                 Colour = "Grey",
                 Brand = "Boss",
-                Type = Type.Top,
+                Type = ClothType.Top,
                 Price = 25
             }).Entity;
             var prod7 = ctx.Products.Add(new Product()
@@ -125,7 +124,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Size = "l",
                 Colour = "Grey",
                 Brand = "Boss",
-                Type = Type.Top,
+                Type = ClothType.Top,
                 Price = 25
             }).Entity;
 
@@ -134,7 +133,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Size = "s",
                 Colour = "Black",
                 Brand = "Boss",
-                Type = Type.Tshirt,
+                Type = ClothType.Tshirt,
                 Price = 25
             }).Entity;
 
@@ -143,7 +142,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Size = "m",
                 Colour = "Black",
                 Brand = "Boss",
-                Type = Type.Tshirt,
+                Type = ClothType.Tshirt,
                 Price = 25
             }).Entity;
 
@@ -152,7 +151,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Size = "l",
                 Colour = "Black",
                 Brand = "Boss",
-                Type =Type.Tshirt,
+                Type = ClothType.Tshirt,
                 Price = 25
             }).Entity;
 
@@ -161,7 +160,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Size = "s",
                 Colour = "Denim",
                 Brand = "DIESEL",
-                Type = Type.Jeans,
+                Type = ClothType.Jeans,
                 Price = 35
             }).Entity;
 
@@ -170,7 +169,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Size = "m",
                 Colour = "Denim",
                 Brand = "Diesel",
-                Type = Type.Jeans,
+                Type = ClothType.Jeans,
                 Price =35
             }).Entity;
 
@@ -179,7 +178,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Size = "l",
                 Colour = "Denim",
                 Brand = "EA",
-                Type = Type.Jeans,
+                Type = ClothType.Jeans,
                 Price = 35
             }).Entity;
 
@@ -188,7 +187,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Size = "s",
                 Colour = "White",
                 Brand = "Lacoste",
-                Type = Type.Shirt,
+                Type = ClothType.Shirt,
                 Price = 40
             }).Entity;
 
@@ -197,7 +196,7 @@ namespace TheRange.Infrastructure.SQL.Data
                 Size = "m",
                 Colour = "White",
                 Brand = "Lacoste",
-                Type = Type.Shirt,
+                Type = ClothType.Shirt,
                 Price = 40
             }).Entity;
 
@@ -206,7 +205,7 @@ namespace TheRange.Infrastructure.SQL.Data
                  Size = "l",
                  Colour = "White",
                  Brand = "Lacoste",
-                 Type = Type.Shirt,
+                 Type = ClothType.Shirt,
                  Price = 40
              }).Entity;
 
