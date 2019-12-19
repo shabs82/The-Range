@@ -58,7 +58,7 @@ namespace TheRange.Infrastructure.SQL.Data
 
             public Order ReadById(int Id)
             {
-            return _ctx.Orders.AsNoTracking().Include(o => o.Products).Include(o => o.Customers).FirstOrDefault(o => o.id == Id);
+            return _ctx.Orders.AsNoTracking().Include(o => o.Products).FirstOrDefault(o => o.id == Id);
             // return _ctx.Orders.ToList();
             }
 
