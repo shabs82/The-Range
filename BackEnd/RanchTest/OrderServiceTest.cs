@@ -1,14 +1,12 @@
-﻿using Moq;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System;
 using Final_exam_project.core.ApplicationService;
 using Final_exam_project.core.DomainService;
+using Moq;
 using TheRange.Core.ApplicationService.Services;
 using TheRange.Core.Entity;
 using Xunit;
 
-namespace RanchTest
+namespace ServicesTest
 {
     public class OrderServiceTest
     {

@@ -1,7 +1,6 @@
-using System;
 using Xunit;
 
-namespace RanchTest
+namespace ServicesTest
 {
     public class UnitTest1
     {
