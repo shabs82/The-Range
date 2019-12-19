@@ -5,8 +5,6 @@ using System.Text;
 using Microsoft.EntityFrameworkCore;
 using TheRange.Core.DomainService;
 using TheRange.Core.Entity;
-using TheRange.Core.Entity.Mens;
-using Type = TheRange.Core.Entity.Type;
 
 namespace TheRange.Infrastructure.SQL.Data.Repositories
 {
@@ -18,6 +16,12 @@ namespace TheRange.Infrastructure.SQL.Data.Repositories
         {
             _ctx = ctx ;
         }
+
+        public Product NewProduct(string Size, string Colour, string Brand, Type Type, decimal Price)
+        {
+            throw new NotImplementedException();
+        }
+
         public Product CreateProduct(Product newProduct)
         {
             _ctx.Products.Attach(newProduct).State = EntityState.Added;
@@ -33,21 +37,21 @@ namespace TheRange.Infrastructure.SQL.Data.Repositories
             return productToDelete;
         }
 
-        public Product NewProduct(string Size, string Colour, string Brand, Type Type, decimal Price)
+        public Product NewProduct(string Size, string Colour, string Brand, ClothType Type, decimal Price)
         {
             return null;
         }
 
         public IEnumerable<Product> ReadAll()
         {
-            return _ctx.Products.ToList();
+            return _ctx.Products;
         }
 
         public Product ReadById(int Id)
         {
             return _ctx.Products.AsNoTracking().Include(p=> p.Order).FirstOrDefault(p => p.Id == Id);
         }
-        public IEnumerable<Product> SortProductByType(Type type)
+        public IEnumerable<Product> SortProductByType(ClothType type)
         {
            return ReadAll().Where(t => t.Type == type);
             

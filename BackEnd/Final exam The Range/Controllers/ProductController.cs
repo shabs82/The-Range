@@ -24,7 +24,7 @@ namespace TheRange.UI.Rest.API.Controllers
 
         // GET api/products
         [HttpGet]
-        public ActionResult<List<Product>> Get()
+        public ActionResult<IEnumerable<Product>>  Get()
         {
             try
             {
