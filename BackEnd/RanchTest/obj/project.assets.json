@@ -15003,9 +15003,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\RanchTest\\RanchTest.csproj",
-      "projectName": "RanchTest",
-      "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\RanchTest\\RanchTest.csproj",
+      "projectUniqueName": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\RanchTest\\ServicesTest.csproj",
+      "projectName": "ServicesTest",
+      "projectPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\RanchTest\\ServicesTest.csproj",
       "packagesPath": "C:\\Users\\kulsoom-Abbas\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\kulsoom-Abbas\\Desktop\\Uni Coursework\\3rd Semester\\Range\\BackEnd\\RanchTest\\obj\\",
       "projectStyle": "PackageReference",

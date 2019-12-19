@@ -15,9 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheRange.Core.Entity", "The
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheRange.Infrastructure.SQL.Data", "TheRangeInfrastructure.SQL.Data\TheRange.Infrastructure.SQL.Data.csproj", "{E1159335-1A8F-4932-9BBB-5AF5A5CD0F7D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RanchTest", "RanchTest\RanchTest.csproj", "{EE0B6202-AA7C-4338-B82F-707FA72B4DC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServicesTest", "RanchTest\ServicesTest.csproj", "{EE0B6202-AA7C-4338-B82F-707FA72B4DC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheRange.Core", "TheRange.Core\TheRange.Core.csproj", "{C581407A-E30D-4542-B506-813B1F8CFC69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheRange.Core", "TheRange.Core\TheRange.Core.csproj", "{C581407A-E30D-4542-B506-813B1F8CFC69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
